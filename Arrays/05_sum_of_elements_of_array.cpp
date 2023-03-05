@@ -7,7 +7,7 @@ int main()
 
     for(int i = 0; i < 7; i++)
     {
-        sum = sum + A[i];
+        sum+=A[i];
     }
     cout<<"Sum of array is "<<sum;
 }
